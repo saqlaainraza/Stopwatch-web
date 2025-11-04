@@ -1,6 +1,6 @@
 services:
-  - type: static
+  - type: web
     name: stopwatch-web
     env: static
     buildCommand: ""
-    publishPath: .
+    staticPublishPath: .
